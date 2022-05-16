@@ -4,7 +4,8 @@
 
 /* ===============ALL=============== */
 
-* {
+*,
+html {
   font-family: "Poppins", sans-serif;
   font-weight: 500;
   font-size: 18px;
@@ -16,7 +17,104 @@ a {
 
 /* ===============HEADER=============== */
 
+header {
+  width: calc(100vw - 22vw);
+  height: 175px;
+  padding: 0 11vw;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header img {
+  width: 11%;
+}
+
+header .nav_principal {
+  width: calc(70% - 80px);
+  padding: 0 40px;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+header a {
+  margin: 15px;
+  color: hsl(0, 0%, 75%);
+}
+
+header .conta {
+  width: 19%;
+}
+
+header .cadastrar {
+  background-color: hsl(180, 66%, 49%);
+  padding: 12px 30px;
+  border-radius: 50px;
+  color: white;
+  font-size: 19px;
+  font-weight: 700;
+  margin: 15px;
+}
+
+header .logar {
+  font-size: 19px;
+  font-weight: 700;
+  margin: 25px;
+  color: hsl(0, 0%, 75%);
+}
+
 /* ===============MAIN=============== */
+
+main .container_titulo {
+  width: calc(100vw - 11vw);
+  height: calc(100vh - 175px - 10vh);
+  padding: 5vh 0 5vh 11vw;
+  display: flex;
+  flex-direction: row;
+}
+
+main .titulo_txt {
+  width: calc(47% - 30px);
+  height: calc(90% - 50px);
+  padding: 50px 30px 0px 0;
+}
+
+main .titulo_img {
+  width: 53%;
+  height: 100%;
+}
+
+main .img_principal {
+  width: 100%;
+  height: 100%;
+}
+
+main h2 {
+  font-weight: 700;
+  font-size: 97px;
+  line-height: 113px;
+}
+
+main h3 {
+  font-size: 27px;
+  line-height: 40px;
+  color: hsl(0, 0%, 75%);
+}
+
+main .started {
+  background-color: hsl(180, 66%, 49%);
+  padding: 21px 30px 4px 30px;
+  border-radius: 50px;
+  color: rgb(252, 252, 252);
+  font-size: 22px;
+  font-weight: 700;
+  margin-top: 40px;
+  display: block;
+  width: 160px;
+  height: 40px;
+  text-align: center;
+}
 
 /* ===============FOOTER=============== */
 
