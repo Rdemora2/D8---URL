@@ -3,4 +3,4 @@
 Desafio do FrontEnd Mentor desenvolvido durante estudos de HTML e CSS
 
 PREVIEW:
-https://rdemora2.github.io/D8---UI_Mentirinha/
+https://rdemora2.github.io/D8---URL/
