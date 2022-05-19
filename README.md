@@ -1,4 +1,5 @@
-# Desafio 8 - UI para o mentirinha
+# Desafio 8 Busertech - URL  / FrontEnd Mentor 
+
 Desafio do FrontEnd Mentor desenvolvido durante estudos de HTML e CSS
 
 PREVIEW:
